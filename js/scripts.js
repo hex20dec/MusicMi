@@ -15,7 +15,7 @@
         }else{
             // student sign up
             if(location.hash.includes('ggl')){
-                gtag('event', 'conversion', {'send_to': 'AW-1002304511/_Qj0CMyjs4cCEP_n990D'});
+                // gtag('event', 'conversion', {'send_to': 'AW-10879325643/4zLuCN3Jv7kDEMur1cMo'});
             }
             $("#student-signup-ty-body").attr("hidden", false);
         }
@@ -59,6 +59,7 @@
     // Closes responsive menu when a scroll trigger link is clicked
     $(".js-scroll-trigger").click(function () {
         $(".navbar-collapse").collapse("hide");
+        $(".dropdown-menu").dropdown('hide');
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
